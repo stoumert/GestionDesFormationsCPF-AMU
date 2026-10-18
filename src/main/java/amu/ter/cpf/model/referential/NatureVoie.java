@@ -1,0 +1,68 @@
+package amu.ter.cpf.model.referential;
+
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+
+@Getter
+@RequiredArgsConstructor
+public enum NatureVoie {
+  ACH("Ancien chemin"),
+  ALL("Allée"),
+  ART("Ancienne route"),
+  AV ("Avenue"),
+  BD("Boulevard"),
+  BEGI("Béguinage"),
+  CHE("Chemin"),
+  CHP("Champ"),
+  CHS("Chaussée"),
+  CHT("Château"),
+  CHV("chemin vicinal"),
+  CITE("Cité"),
+  COR("Corniche"),
+  COTE("Coteau(x), Côte"),
+  CRS("Cours"),
+  DOM("Domaine"),
+  DSC("Descente"),
+  ECA("Ecart"),
+  ESP("Esplanade"),
+  ESPA("Espace"),
+  FG("Faubourg"),
+  GR("Grande Rue"),
+  LOT("Lotissement"),
+  CAR("Carrefour"),
+  HAM("Hameau"),
+  HLE("Halle"),
+  IMP("Impasse"),
+  LD("lieu-dit"),
+  MAIL("Mail"),
+  MAR("Marché"),
+  MTE("Montée"),
+  PARC("Parc"),
+  PAS("Passage"),
+  PL("Place"),
+  PLN("Plaine"),
+  PLT("Plateau"),
+  PRO("Promenade"),
+  PRV("Parvis"),
+  PTR("Petite rue"),
+  QUA("Quartier"),
+  QUAI("Quai"),
+  RES("Résidence"),
+  RLE("Ruelle"),
+  ROC("Rocade"),
+  RPT("Rond-point"),
+  RTD("Rotonde"),
+  RTE("Route"),
+  RUE("Rue"),
+  SEN("Sente-Sentier"),
+  SQ("Square"),
+  TPL("Terre-plein"),
+  TRA("Taverse"),
+  VEN("Venelle"),
+  VLA("Villa"),
+  VOIE("Voie"),
+  VTE("Vieille route"),
+  VLGE("Village");
+
+  private final String natureVoie;
+}
